@@ -1,0 +1,122 @@
+.pokemon-data-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #404c42;
+    max-width: 480px;
+}
+
+.pokemon-header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 2;
+    align-self: end;
+    margin-bottom: -115px;
+}
+
+.card-pokemon-data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #596b5f36;
+}
+
+.pokemon-header img{
+    width: 200px;
+}
+
+.pokemon-header h1{
+    margin-top: -30px;
+    text-transform: capitalize;
+    font-size: 3em;
+}
+
+.title-container{
+    align-self: baseline;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.types-container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    z-index: 2;
+    align-self: end;
+}
+
+.types-container div{
+    padding: 3px 15px;
+    border-radius: 15px;
+}
+
+.physical-stats-container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.general-data-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.general-data-container p{
+    word-break:keep-all;
+    text-transform: capitalize;
+}
+
+.abilities-container{
+    width: max-content;
+}
+
+
+.status-bar{
+    width: 300px;
+    height: 5px;
+    background-color: #9c968d26;
+    border-radius: 5px;
+}
+
+.status-bar div{
+    height: 5px;
+    background-color: rgb(164, 246, 119)   ;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.back-link{
+    background-color: #4abc96;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+    .pokemon-data-container{
+        width: calc(90% - 40px);
+    }    
+    .pokemon-header{
+        margin-right: -35px;
+        margin-bottom: -85px;
+    }
+    .status-bar{
+        width: 160px;
+    }
+}

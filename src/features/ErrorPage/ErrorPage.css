@@ -1,0 +1,28 @@
+.pokemon-header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.pokemon-header img{
+    width: 200px;
+}
+
+.pokemon-header h1{
+    margin-top: -70px;
+    text-transform: capitalize;
+}
+
+.status-bar{
+    width: 300px;
+    height: 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.status-bar div{
+    height: 5px;
+    background-color: red   ;
+    border-radius: 5px;
+}

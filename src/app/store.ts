@@ -1,10 +1,16 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+// import ListaSlice from '../features/ListaPokemon/ListaSlice';
+import ListSlice from '../features/PokemonList/ListSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    // ListaSlicerino: ListaSlice,
+    ListSliceReducer: ListSlice
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false,
+    }),
 });
 
 export type AppDispatch = typeof store.dispatch;
