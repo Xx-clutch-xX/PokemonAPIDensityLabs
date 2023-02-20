@@ -20,7 +20,7 @@ function PokemonList(){
             }
             case 2: {
                 // Here I use navigate instead of directly using the Link to={} 
-                navigate(`/${pokemonName}`)
+                navigate(`/PokemonAPIDensityLabs/${pokemonName}`)
                 break;
             }
             default: {
@@ -61,7 +61,7 @@ function PokemonList(){
                 I check for a null value because the pokeapi returns null if there are no previous pokemon
                 */}
                 {objetoPokemon.previous !== null ? <button onClick={()=>{dispatch(FetchPokemons(objetoPokemon.previous))}}>
-                    <img className='button-sprite' src='/assets/back.png'></img>
+                    <img className='button-sprite' src='./assets/back.png'></img>
                 </button>:<button></button>}
                 {/* 
                 I use the next url sliced value (https://pokeapi.co/api/v2/pokemon/?offset=40&limit=20) for 
@@ -69,7 +69,7 @@ function PokemonList(){
                 the limit of 151
                 */}
                 {parseInt(objetoPokemon.next.slice(42, -9)) <= 140 ? <button onClick={()=>{dispatch(FetchPokemons(objetoPokemon.next))}}>
-                    <img className='button-sprite' src='/assets/next.png'></img>
+                    <img className='button-sprite' src='./assets/next.png'></img>
                 </button> : ''}
 
             </div>
