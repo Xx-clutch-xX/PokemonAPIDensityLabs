@@ -20,7 +20,7 @@ function PokemonList(){
             }
             case 2: {
                 // Here I use navigate instead of directly using the Link to={} 
-                navigate(`/PokemonAPIDensityLabs/${pokemonName}`)
+                navigate(`/${pokemonName}`)
                 break;
             }
             default: {
@@ -35,7 +35,7 @@ function PokemonList(){
 
     return(
         <div className='container-pokemon'>
-            <img className='pokeapi' src='assets/pokeapi.svg' alt='pokeapi'></img>
+            <img className='pokeapi' src='./assets/pokeapi.svg' alt='pokeapi'></img>
             <div className='container-pokemon-list'>
                 {listaPokemons ? listaPokemons.map((pokemon:any, _id:number)=>{
                     // Here I'm using the value of the sliced url(https://pokeapi.co/api/v2/pokemon/10/) 
