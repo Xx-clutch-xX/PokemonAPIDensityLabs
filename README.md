@@ -1,6 +1,18 @@
 # PokeAPI created for Density Labs
 
-This project was created using React, Redux, Axios and React-router-dom. 
+This project was created using React, Redux, Axios and React-router-dom.
+
+>Steps to run:
+>
+>Inside the terminal
+>
+>`git clone https://github.com/Xx-clutch-xX/PokemonAPIDensityLabs.git`
+>
+>`cd PokemonAPIDensityLabs`
+>
+>`npm install`
+>
+>`npm start`
 
 ## Front page
 ![image](https://user-images.githubusercontent.com/19651222/220161490-a8dd976e-c881-4de6-b482-74bb65b8ab90.png)
