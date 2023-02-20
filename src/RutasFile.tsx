@@ -5,8 +5,8 @@ import PokemonPage from './features/PokemonPage/PokemonPage'
 function RutasFile(){
     return(
         <Routes>
-            <Route path='/' element={<App></App>}></Route>
-            <Route path='/:pokemon' element={<PokemonPage></PokemonPage>}></Route>
+            <Route path='/PokemonAPIDensityLabs' element={<App></App>}></Route>
+            <Route path='/PokemonAPIDensityLabs/:pokemon' element={<PokemonPage></PokemonPage>}></Route>
             <Route path='*' element={<PokemonPage/>}></Route>
         </Routes>
     )
