@@ -9,7 +9,7 @@ This project was created using React, Redux, Axios and React-router-dom.
 ![image](https://user-images.githubusercontent.com/19651222/220161619-459f65ce-9866-4849-8194-ca735b85b2f7.png)
 
 ## Mobile version front page
-![image](https://user-images.githubusercontent.com/19651222/220161800-18f151a0-97b3-438d-a4c5-13449fc41f19.png)
+![Screen Shot 2023-02-20 at 10 41 50](https://user-images.githubusercontent.com/19651222/220161916-5e177360-f571-4a3b-9cd7-e13bdb4869eb.png)
 
 ## Mobile version pokemon page
-![image](https://user-images.githubusercontent.com/19651222/220161728-686cbef7-2260-417a-b7a5-1cdd2ef5a2a3.png)
+![Screen Shot 2023-02-20 at 10 41 19](https://user-images.githubusercontent.com/19651222/220161925-0bfa6d63-e2c1-4d61-a0b6-4a90584ae484.png)
