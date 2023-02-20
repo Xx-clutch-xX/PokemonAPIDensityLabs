@@ -51,7 +51,7 @@ function PokemonPage(){
                 </div>
             </div>
             
-            <Link to={'/'} className='back-link'>Back</Link>
+            <Link to={'/PokemonAPIDensityLabs'} className='back-link'>Back</Link>
         </div>
     )
 }
